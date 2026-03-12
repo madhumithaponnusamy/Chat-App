@@ -1,0 +1,76 @@
+
+/* Add this to a new Auth.css */
+.auth-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+  margin: auto;
+}
+.auth-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.form-label {
+  display: block;
+  text-align: left;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.auth-card input {
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.auth-card input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+.auth-card button:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+.auth-card button:hover:not(:disabled) {
+  background: #0056b3;
+}
+.auth-card p {
+  margin-top: 15px;
+  color: #007bff;
+  font-size: 14px;
+}
+.auth-card p:hover {
+  text-decoration: underline;
+}
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #f8d7da;
+  border-radius: 4px;
+  border: 1px solid #f5c6cb;
+}
